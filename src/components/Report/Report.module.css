@@ -1,0 +1,40 @@
+.report_layout {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-12);
+    padding: var(--space-5);
+    height: 100%;
+
+    background: var(--white);
+}
+
+.report_section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-5);
+}
+
+.report_statistics_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.report_statistics_reportTypeSelector_block {
+    display: flex;
+    gap: var(--space-2_5);
+}
+
+.baseInfo_block {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-5);
+}
+
+.tournamentTableGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: var(--space-5);
+}

@@ -1,0 +1,46 @@
+.reportTournamentBracketTable {
+    border-spacing: 0;
+    border-radius: var(--corner-rounded-lg);
+    overflow: hidden;
+    border: 1px solid var(--lines);
+}
+
+
+
+.reportTournamentBracketTable th {
+    padding: var(--space-3_5) var(--space-5);
+    background: var(--light-gray);
+    color: var(--basic-gray);
+    border-bottom: 1px solid var(--lines);
+}
+
+.reportTournamentBracketTable tr:not(:first-child) td {
+    border-top: 1px solid var(--lines);
+}
+.reportTournamentBracketTable td {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-5);
+}
+.reportTournamentBracketTable td div:first-child {
+    width: 100%;
+}
+.reportTournamentBracketTable td:last-child {
+    min-width: 50px;
+}
+
+.reportTournamentBracketTable td {
+    padding: var(--space-5);
+}
+
+
+
+.winnerRow {
+    background: var(--light-green);
+}
+.eliminatedRow {
+    background: var(--light-red);
+}
+.eliminatedText {
+    color: var(--basic-red);
+}

@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+
+    width: 377px;
+    height: 88px;
+
+    padding: var(--space-5);
+    background: var(--light-gray);
+    border-radius: 10px;
+
+    line-height: 0;
+}
+
+.dataText {
+    color: var(--basic-black)
+}
+
+.dataDescription {
+    color: var(--basic-gray)
+}
